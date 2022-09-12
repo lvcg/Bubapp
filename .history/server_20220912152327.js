@@ -58,7 +58,7 @@ app.use("/", mainRoutes);
 app.use("/post", postRoutes);
 
 //Setup Port
-const PORT = process.env.PORT || 2121;
+
 
 //Server Running
 app.listen(process.env.PORT, () => {

@@ -57,9 +57,6 @@ app.use(flash());
 app.use("/", mainRoutes);
 app.use("/post", postRoutes);
 
-//Setup Port
-const PORT = process.env.PORT || 2121;
-
 //Server Running
 app.listen(process.env.PORT, () => {
   console.log("Server is running, you better catch it!");
