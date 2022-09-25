@@ -3,7 +3,7 @@ const Comment = require("../models/Comment");
 module.exports = {
   createComment: async (req, res) => {
     try {
-      //TODO: ADD NEW PROPERTIES TO EACH DOCUMENT / USERNAME DOESNT WORK ?
+      //TODO: ADD NEW PROPERTIES TO EACH DOCUMENT
         //const commentUser = await User.findById(req.user.id);
         await Comment.create({
         comment: req.body.comment,
