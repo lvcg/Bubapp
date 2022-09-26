@@ -1,0 +1,8 @@
+.card-body {
+    padding: 1.25rem;
+    display: flex;
+    flex: 1 1 auto;
+    
+    align-content: center,
+    
+}
